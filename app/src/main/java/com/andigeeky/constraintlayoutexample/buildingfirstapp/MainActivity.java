@@ -1,10 +1,12 @@
-package com.andigeeky.constraintlayoutexample;
+package com.andigeeky.constraintlayoutexample.buildingfirstapp;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
+
+import com.andigeeky.constraintlayoutexample.R;
 
 public class MainActivity extends AppCompatActivity {
     public static final String KEY_MESSAGE = "message";

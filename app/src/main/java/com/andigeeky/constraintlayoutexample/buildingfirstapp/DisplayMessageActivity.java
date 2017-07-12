@@ -1,9 +1,11 @@
-package com.andigeeky.constraintlayoutexample;
+package com.andigeeky.constraintlayoutexample.buildingfirstapp;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.andigeeky.constraintlayoutexample.R;
 
 public class DisplayMessageActivity extends AppCompatActivity {
 

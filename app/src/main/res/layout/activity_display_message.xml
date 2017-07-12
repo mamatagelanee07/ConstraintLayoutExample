@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.andigeeky.constraintlayoutexample.DisplayMessageActivity">
+    tools:context="com.andigeeky.constraintlayoutexample.buildingfirstapp.DisplayMessageActivity">
 
     <TextView
         android:id="@+id/lbl_txt_message"
