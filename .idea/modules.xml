@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ConstraintLayoutExample.iml" filepath="$PROJECT_DIR$/ConstraintLayoutExample.iml" />
+      <module fileurl="file://G:\Workspace_2017\Training\ConstraintLayoutExample\ConstraintLayoutExample.iml" filepath="G:\Workspace_2017\Training\ConstraintLayoutExample\ConstraintLayoutExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://G:\Workspace_2017\Training\ConstraintLayoutExample\app\app.iml" filepath="G:\Workspace_2017\Training\ConstraintLayoutExample\app\app.iml" />
     </modules>
   </component>
 </project>
