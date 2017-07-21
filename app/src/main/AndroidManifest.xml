@@ -23,6 +23,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".buildingfirstapp.MainActivity"/>
         </activity>
+        <activity android:name=".supportlanguagescultures.MultiLanguageActivity">
+        </activity>
     </application>
 
 </manifest>
