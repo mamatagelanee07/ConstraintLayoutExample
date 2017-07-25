@@ -5,4 +5,5 @@
     <string name="lbl_btn_show">Show</string>
     <string name="lbl_btn_dismiss">Dismiss</string>
     <string name="lbl_txt_progress_dialog">Progress Dialog :</string>
+    <string name="lbl_txt_alert_dialog">Alert Dialog :</string>
 </resources>

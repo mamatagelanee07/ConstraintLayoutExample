@@ -27,19 +27,51 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
         android:text="@string/lbl_btn_dismiss"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="16dp"/>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/txt_lbl_progress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
         android:text="@string/lbl_txt_progress_dialog"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_progress_show"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_alert_dismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_btn_dismiss"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_progress_dismiss"/>
+
+    <Button
+        android:id="@+id/btn_alert_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_btn_show"
+        app:layout_constraintEnd_toStartOf="@+id/btn_alert_dismiss"
+        app:layout_constraintTop_toBottomOf="@+id/btn_progress_show"/>
+
+    <TextView
+        android:id="@+id/txt_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/lbl_txt_alert_dialog"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_alert_show"
         app:layout_constraintStart_toStartOf="parent"/>
 </android.support.constraint.ConstraintLayout>
