@@ -2,4 +2,7 @@
     <string name="app_name">ConstraintLayoutExample</string>
     <string name="lbl_edt_name">Name</string>
     <string name="lbl_btn_send">Send</string>
+    <string name="lbl_btn_show">Show</string>
+    <string name="lbl_btn_dismiss">Dismiss</string>
+    <string name="lbl_txt_progress_dialog">Progress Dialog :</string>
 </resources>
